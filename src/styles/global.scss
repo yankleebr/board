@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1080px){
+    htlm{
+        font-size: 93.75%; //converter o tamanho para 15px
+    }
+}
+
+@media (max-width: 720px){
+    htlm{
+        font-size: 87.5%; //converter o tamanho para 15px
+    }
+}
+
+
+
+body{
+    background-color: #f2f6fc;
+}
+
+body, input, textarea, select, button{
+    font: 400 1rem sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
